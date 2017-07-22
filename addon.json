@@ -7,8 +7,10 @@
     "dev": "kick | Captain",
     "dev_url": "https://mmo-develop.ru",
     "faq_url": "",
-    "support_url": "",
-    "extra_urls": [],
+    "support_url": "https://mmo-develop.ru",
+    "extra_urls": {
+        "GitHub": "https://github.com/kickdev/XenForo2-CakeDay"
+    },
     "require": [],
     "icon": "fa-birthday-cake"
 }
