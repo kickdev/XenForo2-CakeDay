@@ -1,0 +1,9 @@
+{
+    "template": "post_macros",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/xf:macro name=\"post\".*?\"message-attribution\">.*?<\\/a>/s",
+    "replace": "$0\n\t\t\t\t\t\t\t<xf:macro template=\"cakeday_macros\" name=\"cakeday\" arg-post=\"{$post}\" arg-thread=\"{$thread}\" />"
+}

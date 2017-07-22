@@ -1,0 +1,1 @@
+Change the default cake icons and tweak other related options.

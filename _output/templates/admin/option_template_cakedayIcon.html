@@ -1,0 +1,11 @@
+<xf:radiorow label="{$option.title}" hint="{$editHtml}" name="{$inputName}[iconType]" value="{$option.option_value.iconType}">
+	<xf:option value="customText" label="{{ phrase('cakeday_option_custom_emoji') }}">
+		<xf:textbox name="{$inputName}[customText]" value="{{ $option.option_value.customText ? $option.option_value.customText : '🍰' }}" placeholder="" size="15" />
+		<xf:hint>{{ phrase('MMOCD_you_may_use_custom_text_emojis') }}</xf:hint>
+	</xf:option>
+	<xf:option value="fontAwesome" label="{{ phrase('admin_navigation_icon') }}">
+		<xf:textbox name="{$inputName}[fontAwesome]" value="{{ $option.option_value.fontAwesome ? $option.option_value.fontAwesome : 'birthday-cake' }}" placeholder="" size="15" />
+	</xf:option>
+	<xf:explain>{$explainHtml}</xf:explain>
+	<xf:html>{$listedHtml}</xf:html>
+</xf:radiorow>

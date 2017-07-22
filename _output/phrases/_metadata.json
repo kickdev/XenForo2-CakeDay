@@ -1,0 +1,32 @@
+{
+    "option_group.cackeday.txt": {
+        "global_cache": false,
+        "version_id": 2000070,
+        "version_string": "2.0.0",
+        "hash": "7fb3260df37efbc3405e93a9d082f1a5"
+    },
+    "option_group_description.cackeday.txt": {
+        "global_cache": false,
+        "version_id": 2000070,
+        "version_string": "2.0.0",
+        "hash": "a625d7f16a7040929439bf8489112ca6"
+    },
+    "permission.forum_displayOwnCakeday.txt": {
+        "global_cache": false,
+        "version_id": 2000070,
+        "version_string": "2.0.0",
+        "hash": "6d34a83b1f0e4dcd60468954b121b27d"
+    },
+    "permission.forum_viewCakeday.txt": {
+        "global_cache": false,
+        "version_id": 2000070,
+        "version_string": "2.0.0",
+        "hash": "ca1cd7bbbd61ac83d0bb7e1a80e12f14"
+    },
+    "permission_interface.cakedayPermissions.txt": {
+        "global_cache": false,
+        "version_id": 2000070,
+        "version_string": "2.0.0",
+        "hash": "eb30bb872e2fcf2533dca7cac4caf23b"
+    }
+}

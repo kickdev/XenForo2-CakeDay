@@ -1,1 +1,1 @@
-# XenForo2-CakeDay
+# [MMO] CakeDay

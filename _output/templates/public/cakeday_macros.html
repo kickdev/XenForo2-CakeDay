@@ -1,0 +1,13 @@
+<xf:macro name="cakeday" arg-post="!" arg-thread="!">
+	<xf:if is="$post.canViewCakeday() && $post.hasCakeday()">
+		<xf:css src="cakeday.less" />
+		
+		<span class="cakeday siblingOnLeft">
+			<xf:if is="$xf.options.cakedayIcon.iconType == 'fontAwesome'">
+				<i class="fa fa-{$xf.options.cakedayIcon.fontAwesome}" title="Cakeday"></i>
+			<xf:else />
+				{$xf.options.cakedayIcon.customText}
+			</xf:if>
+		</span>
+	</xf:if>
+</xf:macro>

@@ -1,0 +1,9 @@
+{
+    "title": "[MMO] Cake Day",
+	"description": "Display cake icons on content and profiles of users who celebrate their registration date anniversaries.",
+    "version_string": "2.0.0",
+    "version_id": 2000070,
+	"dev": "kick | Captain",
+	"dev_url": "https://mmo-develop.ru",
+	"icon": "fa-birthday-cake"
+}

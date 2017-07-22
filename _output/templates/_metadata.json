@@ -1,0 +1,17 @@
+{
+    "admin/option_template_cakedayIcon.html": {
+        "version_id": 2000070,
+        "version_string": "2.0.0",
+        "hash": "97bcc9493426a8291180117c07efae45"
+    },
+    "public/cakeday.less": {
+        "version_id": 2000070,
+        "version_string": "2.0.0",
+        "hash": "4d7d8af82770d3381668bf06b9a6e103"
+    },
+    "public/cakeday_macros.html": {
+        "version_id": 2000070,
+        "version_string": "2.0.0",
+        "hash": "3f28bc541822d7b199f2fb3ae18d0d15"
+    }
+}
